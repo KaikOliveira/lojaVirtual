@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 110px;
+    background-color: #212121;
+}
+header h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+header hr {
+    margin-top: 5px;
+    
+}
+
+header .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+header .title .icons {
+    color:#fff;
+    margin-right: 30px;
+    margin-top: 9px;
+    
+}
+header .title .icons i {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+nav .lista {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+nav .lista ul li {
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+nav .lista ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #757575;
+    font-weight: 700;
+}
+
+nav .lista ul li a:hover{
+    font-size: 25px;
+    color: #fff;
+    transition-duration:0.5s;
+}
+
+nav .conta{
+    display: flex;
+    margin-left: 24px;
+    position: relative;
+}
+
+nav .conta button {
+    font-size: 12px;
+    font-weight: 700;
+
+    width: 60px;
+    height: 37px;
+    border-radius: 22px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #424242;
+    color: #bdbdbd;
+    
+}
+
+nav .conta button:hover {
+    background-color: #fff;
+    color: #212121;
+    transition-duration:0.7s;
+}
