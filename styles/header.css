@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     
     height: 110px;
-    background-color: #212121;
+    background-color: #000;
 }
 header h3 {
     color: #fff;
@@ -60,6 +60,8 @@ nav .lista ul li a {
     font-size: 16px;
     color: #757575;
     font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
 }
 
 nav .lista ul li a:hover{
@@ -77,6 +79,7 @@ nav .conta{
 nav .conta button {
     font-size: 12px;
     font-weight: 700;
+    font-family: 'Dosis', sans-serif;
 
     width: 60px;
     height: 37px;
@@ -90,8 +93,7 @@ nav .conta button {
     justify-content: center;
 
     background-color: #424242;
-    color: #bdbdbd;
-    
+    color: #bdbdbd;  
 }
 
 nav .conta button:hover {
