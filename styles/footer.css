@@ -5,7 +5,7 @@
 
     height: 150px;
     width: 100%;
-    background-color: #000;
+    background-color: #e9e9f3;
     justify-content: center;
     align-items: center;
 }
@@ -27,7 +27,7 @@
 
 .conteiner .item h2{
     font-weight: 700;
-    color: #fff;
+    color: #2d2f36;
     margin-bottom: 5px;
     margin-top: 10px;
     font-family: 'Dosis', sans-serif;
@@ -52,5 +52,10 @@
     padding-right: 30px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.item i:hover{
+    color: #6291ab;
+    transition-duration:0.3s;
 }
