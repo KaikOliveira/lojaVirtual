@@ -4,12 +4,12 @@ header {
     justify-content: space-between;
     
     height: 110px;
-    background-color: #e9e9f3;
+    background-color: #111111;
     
 }
 
 header h3 {
-    color: #2d2f36;
+    color: #ffd764;
     font-weight: 600;
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
@@ -29,13 +29,17 @@ header .title {
     align-items: center;
 }
 header .title .icons {
-    color: #c9c9d3;
+    color: #c4c7ce;
     margin-right: 30px;
     margin-top: 9px;
     
 }
 header .title .icons i {
     padding: 10px;
+}
+
+header .title .icons i:hover{
+    color: #ffd764;
 }
 
 nav {
@@ -62,7 +66,7 @@ nav .lista ul li a {
     text-decoration: none;
     font-size: 16px;
    
-    color: #8d8ba1;
+    color: #c4c7ce;
     font-weight: 700;
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
@@ -70,7 +74,7 @@ nav .lista ul li a {
 
 nav .lista ul li a:hover{
     font-size: 25px;
-    color: #6291ab;
+    color: #ffd764;
     transition-duration:0.5s;
 }
 
@@ -96,12 +100,12 @@ nav .conta button {
     align-items: center;
     justify-content: center;
 
-    background-color: #b1b0c1;
+    background: #ffd764;
     color: #424242;  
 }
 
 nav .conta button:hover {
-    background-color: #69bbd8;
+    background-color: rgba(255,255,255, 0.8);
     color: #212121;
     transition-duration:0.7s;
 }
