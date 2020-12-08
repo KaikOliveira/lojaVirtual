@@ -1,61 +1,62 @@
-.footer{
-    display: flex;
-    position: absolute;
-    bottom: 0;
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
 
-    height: 150px;
-    width: 100%;
-    background-color: #111111;
-    justify-content: center;
-    align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #111111;
+  justify-content: center;
+  align-items: center;
 }
 .footer footer {
-    width: 80%;
-    height: 100%;
+  width: 80%;
+  height: 100%;
 }
- .conteiner{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    
-    justify-content: space-between;
-    
+.conteiner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  justify-content: space-between;
 }
- .conteiner .item {
-    flex-direction: column;    
+.conteiner .item {
+  flex-direction: column;
 }
 
-.conteiner .item h2{
-    font-weight: 700;
-    color: #ffd764;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase;
+.conteiner .item h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffd764;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
 }
 .conteiner .item h3 {
-    font-weight: 500;
-    color: #c4c7ce;
-    margin-bottom: 3px;
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c4c7ce;
+  margin-bottom: 3px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
 }
 .conteiner .item h4 {
-    font-weight: 500;
-    color: #c4c7ce;
-    margin-bottom: 3px;
-    font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  color: #c4c7ce;
+  margin-bottom: 3px;
+  font-family: "Dosis", sans-serif;
 }
-.conteiner .item i{
-    color: #c4c7ce;
-    font-size: 25px;
-    padding-right: 30px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
+.conteiner .item i {
+  color: #c4c7ce;
+  font-size: 2.5rem;
+  padding-right: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.item i:hover{
-    color: #ffd764;
-    transition-duration:0.3s;
+.item i:hover {
+  color: #ffd764;
+  transition-duration: 0.3s;
 }
