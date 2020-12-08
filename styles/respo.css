@@ -67,6 +67,14 @@
     margin-left: 50px;
     padding: 30px 0;
   }
+
+  .conteudo {
+    height: 110px;
+  }
+  .box {
+    width: 70px;
+    height: 90px;
+  }
 }
 
 @media (max-width: 824px) {
