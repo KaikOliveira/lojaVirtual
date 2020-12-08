@@ -1,21 +1,17 @@
-.conteudo{
-    flex-direction: row;
-    display: flex;
-   
-    width: 1250px;
-    height: 200px;
-    
-    background-color: burlywood;
-    justify-content: space-between;
-    
-    align-items: center;
+.conteudo {
+  flex-direction: row;
+  display: flex;
 
-   
-    
+  width: 100%;
+  height: 200px;
+
+  background-color: burlywood;
+  justify-content: space-between;
+
+  align-items: center;
 }
 .box {
-    width: 140px;
-    height: 180px;
-    background-color: aquamarine;
-    
-} 
+  width: 140px;
+  height: 180px;
+  background-color: aquamarine;
+}
